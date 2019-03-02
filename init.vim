@@ -261,6 +261,10 @@ nnoremap U <C-R>
 map <leader>nt :NERDTreeToggle<CR>
 nmap <leader>ev :e ~/.config/nvim/init.vim<cr>
 
+"----------------------------------Python---------------------------------------
+let g:python2_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3'
+
 "===============================================================================
 "                                  Notes
 "===============================================================================
@@ -291,8 +295,8 @@ nmap <leader>ev :e ~/.config/nvim/init.vim<cr>
 "   :vsp to split the window vertically
 "   ctrl+h to switch to the left window
 "   :term to open a terminal in a new horizontal window
+"   :checkhealth to check plugins and python health
 "
-"----------------------------------Visuals--------------------------------------
 "   ----------------------------Custom Macros--------------------------------
 "   ,ev to edit the init.vim
 "   ,nt to open up nerd tree file browser
