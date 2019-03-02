@@ -15,6 +15,14 @@ $ sudo apt-get install neovim -y
 // clone this repo
 $ git clone git@github.com:ryandobby/nvim.git
 $ mv nvim ~/.config/
+
+// If you want to use Neovim for some (or all) of the editor alternatives, use the following commands:
+sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+sudo update-alternatives --config vi
+sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+sudo update-alternatives --config vim
+sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+sudo update-alternatives --config editor
 ```
 #### Optional PHP Configuration
 
